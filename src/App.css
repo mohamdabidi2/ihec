@@ -1,0 +1,150 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Start dash bord user */
+
+/*
+ #ffcc00 yellow
+#003366 blue
+#FFFFF white
+ */
+
+:root {
+  --primaryColor: hsl(94%, 59% 35%);
+  --hoverColor: #bdf094;
+  --paleGreen: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textcolor: hsl(240, 1%, 48%);
+  --bgColor: hsl(220, 10%, 94%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+
+
+  /* font on typograpy */
+  --bigestfontsize: 2.5rem;
+  --h1fontsize: 1.5rem;
+   /* --h2fontsize: 1.25rem; */
+  --h2fontsize: 20px;
+  --h3fontsize: 1rem;
+  --normalFontSize: .938rem;
+  --smallfontSize: .800rem;
+  --smallestFontSize: 0.75rem;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  transition: .3s ease;
+}
+
+html {
+  font-size: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.icon {
+  font-size: var(--h2fontsize);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--inputColor);
+  padding: .8rem 1rem;
+  color: var(--textcolor);
+}
+
+.btn .icon {
+  margin-left: .5rem;
+}
+
+.btn:hover {
+  background-color: var(--paleGreen);
+  color: var(--primaryColor);
+}
+
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.container {
+  position: relative;
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: var(--bgColor);
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 4px var(--greyText);
+}
+
+/* End dash bord user */
