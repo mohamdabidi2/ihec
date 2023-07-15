@@ -11,8 +11,8 @@ export default function Top() {
           <p>Hello Guest, Welcome Back</p>
         </div>
         <div className="searchBar flex">
+                    <AiOutlineSearch className="icon" />
           <input type="search" placeholder='' className='inputSearch' />
-          <AiOutlineSearch className="icon" />
         </div>
       </div>
     </div>

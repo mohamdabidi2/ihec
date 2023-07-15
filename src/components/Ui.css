@@ -1,0 +1,17 @@
+.bottom {
+    margin-top: 2rem;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.container {
+    position: relative;
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: var(--bgColor);
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px var(--greyText);
+}

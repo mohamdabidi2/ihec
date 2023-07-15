@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.login-pagee {
+    /* background-color: #40a7ff;
+    width: 100vw;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-page-formulaire {
+    color: #4e4e4e;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px;
+}
+
+.login-champs {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    margin: 5px;
+    width: 100%;
+}
+
+.part-rem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.part-rem1 {
+    display: flex;
+    margin-left: 20px;
+}
+
+.btn-login {
+    padding: 10px 20px;
+    background-color: #40a7ff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-login:hover {
+    opacity: 0.8;
+}
+
+.forgot-Password {
+    cursor: pointer;
+}
+
+.forgot-Password:hover {
+    opacity: 0.9;
+}
+
+.login-page-logo {
+    margin-bottom: 10px;
+}
+
+.niveau {
+    width: 100%;
+    padding: 15px 30px;
+}
+
+/* change password */
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+    /* Center the card horizontally */
+    box-sizing: border-box;
+    /* Include padding and border in the total width */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #40a7ff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .login-page-formulaire {
+        width: 90%;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .login-page-formulaire {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    input[type="password"] {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .login-page {
+        display: grid;
+        gap: 1;
+    }
+}

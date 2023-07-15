@@ -1,16 +1,3 @@
-.mainContent {
-    width: 82%;
-    height: 100%;
-    padding: 2rem;
-    overflow: auto;
-}
-.bottom {
-    margin-top: 2rem;
-    align-items: flex-start;
-    gap: 2rem;
-} 
-
-/* fdjgfdkjg */
 * {
     padding: 0;
     box-sizing: border-box;

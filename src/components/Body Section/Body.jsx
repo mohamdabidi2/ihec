@@ -6,11 +6,13 @@ import Activity from './Activity Section/Activity.jsx'
 
 export default function Body() {
   return (
+    <div className="container">
     <div className='mainContent' >
     <Top />
     <div className='bottom flex' >
       <Listing />
       <Activity />
+    </div>
     </div>
     </div>
   )

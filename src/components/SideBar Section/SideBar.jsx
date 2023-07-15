@@ -1,7 +1,7 @@
 import React from 'react'
 import './SideBar.css'
 import {Link } from 'react-router-dom'
- import { AiFillHome } from "react-icons/ai";
+import { AiFillHome } from "react-icons/ai";
 
 export default  function Sidebar() {
   return (
@@ -13,54 +13,59 @@ export default  function Sidebar() {
             </div>
             <div className="menuDiv">
                 <ul className="menuLists grid">
+                    <Link to="/">
                     <li className="ListItem">
-                        <a href='' className='menuLink flex'>
+                        <p className='menuLink flex'>
                             <AiFillHome className="icon" />
                             <span className="smallText">
                                 Acceuil
                             </span>
-                        </a>
-                    </li>
+                        </p>
+                    </li></Link>
                     <li className="ListItem">
-                        <a href='' className='menuLink flex'>
+                        <p p className='menuLink flex'>
                             <AiFillHome className="icon" />
                             <span className="smallText">
                                 Matiere
                             </span>
-                        </a>
+                        </p>
                     </li>
                        <li className="ListItem">
-                        <a href='' className='menuLink flex'>
+                        <p  className='menuLink flex'>
                             <AiFillHome className="icon" />
                             <span className="smallText">
                                 Livre
                             </span>
-                        </a>
+                        </p>
                     </li>
+                    <Link to="/Online">
                        <li className="ListItem">
-                        <a href='' className='menuLink flex'>
+                        <p  className='menuLink flex'>
                             <AiFillHome className="icon" />
                             <span className="smallText">
                                 En directe
                             </span>
-                        </a>
+                        </p>
                     </li>
+                    </Link>
                        <li className="ListItem">
-                        <a href='' className='menuLink flex'>
+                        <p className='menuLink flex'>
                             <AiFillHome className="icon" />
                             <span className="smallText">
                                 Offre
                             </span>
-                        </a>
-                    </li>
+                        </p>
+                    </li> 
+                    <Link to='/ProfileCard'>
                        <li className="ListItem">
-                        <a href='' className='menuLink flex'>
+                        <p  className='menuLink flex'>
                             <AiFillHome className="icon" />
                             <span className="smallText">
                                 Mon profile
                             </span>
-                        </a>
+                        </p>
                     </li>
+                    </Link>
                 </ul>
             </div>
                           <Link to='/register'>
