@@ -1,0 +1,87 @@
+
+.content {
+height: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 70px ;
+    grid-template-areas:
+        "h h h h h h h h h h f f "
+        "c c c c c c c c c c f f "
+        "c c c c c c c c c c d d "
+        "c c c c c c c c c c d d ";
+}
+
+.cardLive {
+    grid-area: h;
+    color: white;
+
+}
+
+.video-section {
+    grid-area: c;
+}
+
+.cardTime {
+    grid-area: f;
+}
+
+.cardBook {
+    grid-area: d;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    transition: 0.5s;
+}
+
+.cardBook:hover {
+    transform: translateY(-20px);
+}
+.book-image {
+    width: 60%;
+    border-radius: 4px;
+}
+
+.book-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.author {
+    font-size: 1rem;
+    color: #666;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.discounted-price {
+    font-size: 1.2rem;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.buy-button {
+    display: block;
+    width: 100%;
+    background-color: #e91e63;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.buy-button:hover {
+    background-color: #c2185b;
+}

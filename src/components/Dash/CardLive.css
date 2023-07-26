@@ -1,0 +1,15 @@
+.cardLive {
+    background-color: #777;
+    border-radius: 8px;
+    margin-top: 1rem;
+   
+    
+}
+
+.cardLive h3 {
+    margin-top: 0.6rem ;
+}
+.cardLive span {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}

@@ -21,16 +21,16 @@
   --smallestFontSize: 0.75rem;
 }
 
-.searchBar .inputSearch {
+/* .searchBar .inputSearch {
   width: 400px;
   height: 40px;
   margin: 0 70px;
   border-radius: 8px;
-}
+} */
 /* .topSection .headerSection {
   justify-content: space-between;
 } */
-.topSection .headerSection h1 {
+/* .topSection .headerSection h1 {
   font-size: var(--h1fontSize);
   font-weight: 700;
   color: var(--blackColor);
@@ -40,4 +40,61 @@
   background-color: #40a7ff;
   padding: 20px;
   border-radius: 8px;
+} */
+.topSection {
+  .headerSection {
+   
+    .title {
+      h1 {
+          font-size: var(--h1fontsize);
+          color: var(--blackColor);
+          font-weight: 700;
+        }
+      
+        p {
+          font-size: var(--normalFontSize);
+          color: var(--textcolor);
+          font-weight: 500;
+        }
+    }
+    .searchBar {
+      padding: 1rem 2rem;
+      margin: 0 auto;
+      background: var(--whiteColor);
+      border-radius: 5px;
+      box-shadow: 0 2px 4px var(--inputColor);
+       
+
+      .inputSearch {
+        border: none;
+        outline: none;
+        background: none;
+       
+        
+      }
+      .icon {
+        color: var(--textcolor);
+        &:hover {
+          color: var(--primaryColor);
+        }
+      }
+    
+    } 
+  }
+}
+.logOut {
+  margin-left: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+.logoutText {
+  font-size: 1.5rem;
+}
+.logoutLogo {
+  width: 40px;
+  padding: 0 auto;
+  
+}
+.logOut:hover {
+  background-color: #F5F5F5;
 }

@@ -27,7 +27,7 @@ export default function Information() {
                     </form>
                 </div>
                 <div className="login-page-formulaire animate__animated animate__fadeInDown">
-                <div class="card">
+                <div class="cardPass">
         <h2>Change Password</h2>
         <div className='form'>
             <label for="current-password">Current Password:</label>

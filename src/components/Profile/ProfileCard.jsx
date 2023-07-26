@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 
 export default function ProfileCard() {
   return (
+    <div className='profileCon'>
+    <h1 className='mon-profile'>Mon Profile</h1>
     <section className='login-pagee'>
     <div className="profile-card">
     <div className="profile-image">
@@ -24,5 +26,6 @@ export default function ProfileCard() {
 </div>
 
     </section>
+    </div>
   )
 }

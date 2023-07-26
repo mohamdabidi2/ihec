@@ -1,0 +1,21 @@
+.livreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: calc(100%/6);
+
+}
+
+.card-Book {
+    margin: 1rem;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    transition: 0.5s;
+}
+.card-Book:hover {
+    transform: translateY(-20px);
+}

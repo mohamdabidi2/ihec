@@ -1,0 +1,36 @@
+.chapContainer {
+   padding: 1rem;
+   border: solid 2px #777;
+   border-radius: 8px;
+  
+
+}
+.progress-card {
+    width: 500px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+ .course-name {
+    position: relative;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+.progress-bar {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #4caf50;
+}
+
+ .progress-text {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #4caf50;
+}
